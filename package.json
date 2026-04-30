@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "tailwind.config.js",
-  "scripts": {
-    "build": "npx tailwindcss -i ./style.css -o ./src/output.css --watch"
-  },
+"scripts": {
+  "build": "tailwindcss -i ./input.css -o ./dist/output.css --minify"
+}
   "keywords": [],
   "author": "",
   "license": "ISC",
